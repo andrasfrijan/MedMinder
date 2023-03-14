@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="SignInPage">
+      <div class="logoImageSignIn">
+        <img src="images/logo.png" />
+      </div>
+      <div class="btnSignContainer">
+        <button class="btnsignInPage selectedButton">Sign In</button>
+        <a href="signUp.html"><button class="btnsignInPage">Sign Up</button></a>
+      </div>
+      <form id="login-form">
+        <div class="formContainerSignIn">
+          <input
+            id="email-input"
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+          <input
+            id="password-input"
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+        </div>
+
+        <div class="submitBtnSignInContainer">
+          <button type="submit">Continue</button>
+          <div class="forgotPassword"><a href="">FORGOT PASSWORD</a></div>
+        </div>
+      </form>
+    </section>
+    <script src="signIn.js"></script>
+  </body>
+</html>

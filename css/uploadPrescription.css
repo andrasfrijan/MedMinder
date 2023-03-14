@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#uploadPrescription {
+  background-image: linear-gradient(#c8c8ce, #2c0e37, #2c0e37);
+  height: 110vh;
+}
+
+.title h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 26px;
+  color: #2c0e37;
+}
+.PrescriptionInstructions {
+  background-image: url(images/prescriptionInstructions.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  margin-left: -35px;
+  margin-top: -42px;
+}
+
+.instructions {
+  position: absolute;
+  margin-top: 116px;
+  margin-left: 86px;
+}
+
+.instructions h2 {
+  font-size: 18px;
+  margin-left: -17px;
+}
+
+.checks {
+  display: flex;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.checks i {
+  color: #61316b;
+}
+
+.checks p {
+  margin-left: 17px;
+}
+.steps {
+  margin-left: -17px;
+}
+.steps h2 {
+  margin-left: -3px;
+  margin-top: 15px;
+}
+
+.explication {
+  display: flex;
+  margin-left: -10px;
+}
+
+.explication p {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.bell {
+  height: 43px;
+  margin-top: 19px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+}
+
+.bell-p {
+  margin-left: -2px;
+}
+.bell2 {
+  margin-left: -10px;
+}
+.upload {
+  height: 158px;
+  width: 331px;
+  background: none;
+  border-style: dashed;
+  text-align: center;
+  border-color: #dbc0d8;
+  margin-left: 31px;
+  margin-top: -46px;
+  border-width: thick;
+}
+
+.upload img {
+  height: 159px;
+  margin-left: 60px;
+  margin-top: -31px;
+}
+
+.upload p {
+  color: white;
+  font-size: 23px;
+  margin-top: -20px;
+}
+
+.bttns {
+  display: flex;
+  margin-top: 47px;
+}
+
+.bttns button {
+  border: none;
+  text-decoration: none;
+  background-color: #61316b;
+  color: white;
+  font-size: 23px;
+  font-weight: thin;
+  width: 148px;
+  border-radius: 10px;
+  height: 55px;
+  margin-left: 34px;
+}
+
+.bttns i:nth-child(1) {
+  filter: drop-shadow(0 3px 3px black);
+}
+
+.Next {
+  text-align: center;
+}
+
+.Next button {
+  border: none;
+  text-decoration: none;
+  background-color: #61316b;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 13px;
+  width: 290px;
+  border-radius: 35px;
+  margin-top: 60px;
+  filter: drop-shadow(0 3px 3px black);
+}

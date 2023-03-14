@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/homPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/31198f9e51.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="manifest (1)/manifest.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <section id="homePage">
+      <video width="100%" height="auto" autoplay muted loop id="vid">
+        <source src="images/pillsVideo.mp4" type="video/mp4" />
+        <source src="movie.ogg" type="video/ogg" />
+      </video>
+      <h1 class="titleMorning">Good morning, David!</h1>
+      <div class="background">
+        <img src="images/calendarHome.png" alt="" />
+        <div class="medicines">
+          <p>Today's medicines</p>
+          <a href="pillProspect.html"><div class="pillsToTake">
+            <p>10:25 am</p>
+            <p>
+              Next medicine in <br />
+              45 min
+            </p>
+            <p>
+              Take your BP medicine<br />
+              Diuretics tablets along with water
+            </p>
+            <img src="images/firstPill.png" alt="" />
+          </div></a>
+
+          <div class="pillsToTake">
+            <p>11:45 am</p>
+            <p>Bactrium tablets</p>
+            <p>
+              Take your infection tablets<br />
+              Bactrium along with water
+            </p>
+            <img src="images/secondPill.png" alt="" />
+          </div>
+
+          <div class="pillsToTake">
+            <p>02:00 pm</p>
+            <p>Ibuprofen tablets</p>
+            <p>
+              Take your pain tablets<br />
+              Ibuprofen along with milk
+            </p>
+            <img id="thirdPill" src="images/thirdPill.png" alt="" />
+          </div>
+        </div>
+
+        <a href="UploadPrescription.html"><div class="prescription">
+          <p>Upload Prescription</p>
+          <img src="images/prescriptionHome.png" alt="" />
+        </div></a>
+        <a href="Symptoms.html"><div class="symptoms">
+          <p>Symptoms</p>
+          <div class="logSymptoms">
+            <p>Log your symptoms</p>
+            <i class="fa-solid fa-circle-plus" id="plusSymptoms"></i>
+          </div>
+        </div></a>
+        <div class="appointments">
+          <p>Upcoming appointments</p>
+          <div class="doctor">
+            <p>Dr. Sarah Johnson</p>
+            <p>Dental specialist</p>
+            <p><i class="fa-solid fa-star"></i>4.5 (834)</p>
+            <div class="dateTime">
+              <h6 class="date">Today, February 9</h6>
+              <h6 class="time">10:00 - 11:00 am</h6>
+              <img src="images/doctorGirl.png" alt="" />
+            </div>
+          </div>
+
+          <div class="doctor">
+            <p>Dr. Sarah Johnson</p>
+            <p>Dental specialist</p>
+            <p><i class="fa-solid fa-star"></i>4.5 (834)</p>
+            <div class="dateTime">
+              <h6 class="date">Today, February 9</h6>
+              <h6 class="time">10:00 - 11:00 am</h6>
+              <img src="images/doctorMan.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="bottomNav">
+          <div class="leftIconsNav">
+            <a href="">
+              <i id="search" class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <a href="homePage.html">
+              <i id="home" class="fa-solid fa-house"></i>
+            </a>
+          </div>
+          <a href="profilePage.html">
+            <img
+              class="middleProfileIcon"
+              src="images/profileIconMenu.png"
+              alt=""
+            />
+          </a>
+          <div class="rightIconsNav">
+            <a href="Journal.html">
+              <i id="calendar" class="fa-solid fa-calendar"></i>
+            </a>
+            <a href="AddMedicine.html">
+              <i id="plus" class="fa-solid fa-circle-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <script src="pwaJavascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/AddMedicine.css" />
+    <!-- <link rel="stylesheet" href="quagga/quagga.min.js" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/31198f9e51.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="AddMedicine">
+      <i onclick="history.back()" class="fa-solid fa-chevron-left"></i>
+      <div class="topSection">
+        <h1>Add Medicine</h1>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <div class="scan">
+        <img id="barcode-image" src="images/barCode.png" />
+        <p>Scan bar code</p>
+      </div>
+      <div id="scanner-container"></div>
+      <div class="input-fields">
+        <form>
+          <label for="Medname">Name of the medicine</label>
+          <!-- <input type="text" id="Medname result" name="Medname" /> -->
+          <input type="text" id="result" name="Medname" />
+          <label for="Reason">Reason</label>
+          <input type="text" id="Reason" name="Reason" />
+        </form>
+      </div>
+
+      <div class="wrapper">
+        <div class="item" onclick="selected(this)">
+          <img class="tablets" src="images/tablet.png" />
+          <p>Tablets</p>
+        </div>
+        <div class="item" onclick="selected(this)">
+          <img class="injection" src="images/injection3d.png" />
+          <p>Injection</p>
+        </div>
+        <div class="item" onclick="selected(this)">
+          <img class="capsules" src="images/capsule.png" />
+          <p>Capsules</p>
+        </div>
+        <div class="item" onclick="selected(this)">
+          <img class="spray" src="images/spray.png" />
+          <p>Spray</p>
+        </div>
+      </div>
+
+      <div class="Next">
+        <a href="addMedicineInformation.html"><button>Next</button></a>
+      </div>
+    </section>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script src="https://unpkg.com/quagga"></script>
+    <script src="AddMedicine.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script src="AddMedicine.js"></script>
+  </body>
+</html>

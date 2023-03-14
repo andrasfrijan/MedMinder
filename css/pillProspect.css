@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#pillProspect {
+  height: 138vh;
+  overflow: hidden;
+}
+
+.backgroundPillProspect {
+  background-image: linear-gradient(
+    #2c0e37,
+    #553f5e,
+    #675570,
+    #93889a,
+    #9b92a2
+  );
+  height: 300px;
+  border-radius: 30px;
+  margin-top: -30px;
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  font-size: 30px;
+  margin-top: 52px;
+  margin-left: 20px;
+  opacity: 0.8;
+}
+
+.arrow i {
+  color: white;
+}
+
+.backgroundPillProspect img {
+  margin-top: 60px;
+}
+.pillProspect {
+  margin-left: 20px;
+  color: #2c0e37;
+}
+.pillProspect h1 {
+  margin-bottom: 9px;
+}
+.description {
+  line-height: 1.5;
+  margin-top: 30px;
+}
+.audioPrescription p {
+  margin-left: 150px;
+  margin-top: -70px;
+  color: #2c0e37;
+  font-size: 23px;
+  font-weight: bold;
+}
+.icon {
+  background-image: linear-gradient(#61316b, #dbc0d8);
+  height: 51px;
+  width: 56px;
+  border-radius: 9px;
+  margin-top: 60px;
+  margin-left: 36px;
+}
+
+.fa-pills:before {
+  font-size: 30px;
+
+  margin-left: 11px;
+  margin-top: -7px;
+
+  position: absolute;
+  color: white;
+  filter: drop-shadow(0px 3px 3px black);
+}
+
+.fa-circle-xmark:before,
+.fa-times-circle:before,
+.fa-xmark-circle:before {
+  font-size: 30px;
+  margin-left: 11px;
+  margin-top: -6px;
+  position: absolute;
+  color: white;
+  filter: drop-shadow(0px 3px 3px black);
+}
+
+.tabletsInfo p {
+  margin-left: 150px;
+  margin-top: -42px;
+  color: #2c0e37;
+  font-size: 16px;
+}
+
+.whereToBuyBtn {
+  text-align: center;
+}
+
+.whereToBuyBtn button {
+  border: none;
+  text-decoration: none;
+  background-color: #61316b;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 13px;
+  width: 290px;
+  border-radius: 35px;
+  margin-top: 64px;
+  filter: drop-shadow(0 3px 3px black);
+}
+/* --------------------------------------------------------Bottom Menu ----------------------------------------------------------*/
+.bottomNav {
+  text-align: center;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.25);
+  z-index: 99999999;
+  width: 100vw;
+  height: 10vh;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  background-color: #2c0e37;
+  bottom: 0px;
+}
+
+.middleProfileIcon {
+  border: 2px solid #2c0e37;
+  border-radius: 100%;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -51px;
+  background-color: #2c0e37;
+  margin-bottom: -26px;
+}
+
+.bottomNav,
+.middleProfileIcon,
+.leftIconsNav:first-child,
+.rightIconsNav:nth-of-type(2) {
+  position: fixed;
+}
+
+.leftIconsNav:first-child,
+.rightIconsNav:nth-of-type(2) {
+  bottom: 2%;
+}
+
+.leftIconsNav:first-child {
+  left: 5%;
+}
+
+.rightIconsNav:nth-of-type(2) {
+  right: 16%;
+}
+
+.middleProfileIcon {
+  margin-left: -50px !important;
+}
+
+#search {
+  font-weight: 900;
+  font-size: 36px;
+  color: white;
+}
+
+#home {
+  font-weight: 900;
+  font-size: 36px;
+  color: white;
+  margin-left: 31px;
+  margin-bottom: 10px;
+}
+
+#calendar {
+  font-weight: 900;
+  font-size: 36px;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+
+#plus {
+  font-weight: 900;
+  font-size: 36px;
+  color: white;
+  margin-right: -30px;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medicine Information</title>
+    <link rel="stylesheet" href="css/styleAddMedicineInformation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/31198f9e51.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="medicineInformation">
+      <i onclick="history.back()" class="fa-solid fa-chevron-left"></i>
+      <div class="capsules"></div>
+
+      <div class="informationMedicine">
+        <div class="info">
+          <img src="images/injection.png" alt="" />
+        </div>
+
+        <div class="view">
+          <img src="images/eye.png" alt="" />
+        </div>
+
+        <div class="usage">
+          <img src="images/usage.png" alt="" />
+        </div>
+
+        <div class="calendar">
+          <img src="images/calendar.png" alt="" />
+        </div>
+
+        <div class="calendar">
+          <img src="images/calendar.png" alt="" />
+        </div>
+      </div>
+
+      <div class="customizePill">
+        <p>Customize the look of your pill</p>
+        <div class="customPillImg">
+          <img id="pill" src="images/white.png" alt="" />
+        </div>
+        <div class="colorPicker">
+          <input
+            class="colour"
+            id="purple"
+            type="button"
+            onclick="ShowPurple()"
+            style="background-color: #7c3cf6"
+          />
+          <input
+            class="colour"
+            id="blue"
+            type="button"
+            onclick="ShowBlue()"
+            style="background-color: #80d2fa"
+          />
+          <input
+            class="colour"
+            id="red"
+            type="button"
+            onclick="ShowRed()"
+            style="background-color: red"
+          />
+          <input
+            class="colour"
+            id="pink"
+            type="button"
+            style="background-color: palevioletred"
+          />
+          <input
+            class="colour"
+            id="green"
+            type="button"
+            style="background-color: #a5ca77"
+          />
+          <input
+            class="colour"
+            id="orange"
+            type="button"
+            style="background-color: #f09574"
+          />
+          <input
+            class="colour"
+            id="yellow"
+            type="button"
+            style="background-color: #f5bf71"
+          />
+          <input
+            class="colour"
+            id="brown"
+            type="button"
+            style="background-color: #6b3e4d"
+          />
+        </div>
+      </div>
+
+      <div class="notifications">
+        <p>Notifications</p>
+
+        <label class="switch">
+          <input type="checkbox" checked />
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div class="wrapper">
+        <div class="item" onclick="selected(this)">
+          <p>Mon</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+        <div class="item" onclick="selected(this)">
+          <p>Tue</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+        <div class="item" onclick="selected(this)">
+          <p>Wed</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+        <div class="item" onclick="selected(this)">
+          <p>Thu</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+        <div class="item" onclick="selected(this)">
+          <p>Fri</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+        <div class="item" onclick="selected(this)">
+          <p>Sat</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+        <div class="item" onclick="selected(this)">
+          <p>Sun</p>
+          <img class="checkIcon" src="images/check.png" />
+        </div>
+      </div>
+
+      <div class="time">
+        <button class="button">PM</button>
+        <div class="button vl">|</div>
+        <button class="button">AM</button>
+      </div>
+
+      <div class="wrapper">
+        <div class="hour" onclick="selected(this)">
+          <p>12:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>1:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>2:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>3:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>4:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>5:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>6:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>7:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>8:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>9:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>10:00</p>
+        </div>
+        <div class="hour" onclick="selected(this)">
+          <p>11:00</p>
+        </div>
+      </div>
+      <div class="Save">
+        <a href="Popup.html"><button>Save</button></a>
+      </div>
+    </section>
+    <script src="addMedicineInformation.js"></script>
+  </body>
+</html>

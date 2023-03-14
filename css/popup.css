@@ -1,0 +1,47 @@
+*{
+    background-color: #2C0E37;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    
+}
+
+a{
+    cursor: pointer;
+    position: absolute;
+    /* right: 20px; */
+    top: 583px;
+    left: 37px;
+    width: 30px;
+    height: 38px;
+    background: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    background-color: #61316b;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 13px;
+    width: 290px;
+    border-radius: 35px;
+    filter: drop-shadow(0px 6px 6px black);
+    margin-bottom: 20px;
+  }
+
+  .content{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 200px;
+    line-height: 45px;
+  }
+
+  .fa-solid, .fas {
+    font-weight: 900;
+    font-size: 100px;
+    color: #DBC0D8;
+    margin-bottom: 30px;
+}
